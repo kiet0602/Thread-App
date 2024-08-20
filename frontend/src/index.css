@@ -1,0 +1,27 @@
+.icon-container {
+  border-radius: 50%;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  transition: backround-color 0.3s ease-in-out;
+}
+.icon-container:hover {
+  backround-color: #1e1e1e;
+}
+
+//Đoạn mã tự thêm theo video
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
